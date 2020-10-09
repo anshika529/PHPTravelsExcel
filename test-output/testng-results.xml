@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="29183" started-at="2020-10-09T11:18:37Z" finished-at="2020-10-09T11:19:06Z">
+    <groups>
+    </groups>
+    <test name="Chrome Test" duration-ms="28699" started-at="2020-10-09T11:18:37Z" finished-at="2020-10-09T11:19:06Z">
+      <class name="com.atmecs.phptravels.testscripts.ChatTest">
+        <test-method status="PASS" signature="browserSetUp(java.lang.String)[pri:0, instance:com.atmecs.phptravels.testscripts.ChatTest@6500df86]" name="browserSetUp" is-config="true" duration-ms="11182" started-at="2020-10-09T11:18:38Z" finished-at="2020-10-09T11:18:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method status="PASS" signature="Chat(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.phptravels.testscripts.ChatTest@6500df86]" name="Chat" duration-ms="12637" started-at="2020-10-09T11:18:49Z" data-provider="Data" finished-at="2020-10-09T11:19:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anshika]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7060456197']]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Chat -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.atmecs.phptravels.testscripts.ChatTest@6500df86]" name="closeBrowser" is-config="true" duration-ms="4031" started-at="2020-10-09T11:19:01Z" finished-at="2020-10-09T11:19:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.atmecs.phptravels.testscripts.ChatTest -->
+    </test> <!-- Chrome Test -->
+    <test name="Firefox Test" duration-ms="29183" started-at="2020-10-09T11:18:37Z" finished-at="2020-10-09T11:19:06Z">
+      <class name="com.atmecs.phptravels.testscripts.ChatTest">
+        <test-method status="PASS" signature="browserSetUp(java.lang.String)[pri:0, instance:com.atmecs.phptravels.testscripts.ChatTest@6a4f787b]" name="browserSetUp" is-config="true" duration-ms="10441" started-at="2020-10-09T11:18:38Z" finished-at="2020-10-09T11:18:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method status="PASS" signature="Chat(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.phptravels.testscripts.ChatTest@6a4f787b]" name="Chat" duration-ms="13044" started-at="2020-10-09T11:18:48Z" data-provider="Data" finished-at="2020-10-09T11:19:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anshika]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7060456197']]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Chat -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.atmecs.phptravels.testscripts.ChatTest@6a4f787b]" name="closeBrowser" is-config="true" duration-ms="4849" started-at="2020-10-09T11:19:01Z" finished-at="2020-10-09T11:19:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.atmecs.phptravels.testscripts.ChatTest -->
+    </test> <!-- Firefox Test -->
+  </suite> <!-- Suite -->
+</testng-results>
